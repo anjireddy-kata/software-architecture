@@ -24,6 +24,12 @@ The difference between actual and target architecture creates complexity for the
 
 ![image](https://github.com/user-attachments/assets/6978d3f4-755d-4bbd-a3b2-2ae40fd43e0a)
 
+The goal of durable architecture is to reduce development and maintenance costs. Software should be easily modifiable. The software development team should be able to quickly navigate the source code and its structures during their work. This is particularly important because developers and architects spend most of their time reading and understanding code.
+
+#### How to make your code more flexible?
+* Encapsulation and loose coupling
+* Dependency on abstractions
+* Programming against abstractions 
 
 ### What is Technical Debt?
 Technical debt refers to the <b>implied cost of future rework or inefficiencies caused by choosing an easier, quicker, or suboptimal solution in software development instead of a more robust, long-term approach</b>. While these shortcuts can speed up development initially, they often result in maintenance challenges, bugs, or scalability issues that require additional effort to address later.
@@ -55,3 +61,12 @@ The design of classes, packages, subsystems, layers, and modules is inconsistent
 Tests are missing or only the positive case is tested. The test coverage with automated unit tests is low. 
 ##### Documentation debt: 
 There is no documentation, or the documentation that exists is incomplete or outdated. The overview of the architecture is not supported by the documents. Design decisions are not documented.
+
+#### Minimize Technical Debt
+* Architecture discussions within the team
+* Key Metrics Monitoring
+* Pair Programming
+* Mob Programming
+* Mob Architecting
+![image](https://github.com/user-attachments/assets/05ab0b30-d86f-42c1-8c60-1e0533dd304d)
+
